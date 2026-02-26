@@ -1,6 +1,6 @@
 ﻿namespace examen_1
 {
-    partial class Form1
+    partial class FormCalculador
     {
         /// <summary>
         ///  Required designer variable.

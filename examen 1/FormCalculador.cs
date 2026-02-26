@@ -1,8 +1,8 @@
 namespace examen_1
 {
-    public partial class Form1 : Form
+    public partial class FormCalculador : Form
     {
-        public Form1()
+        public FormCalculador()
         {
             InitializeComponent();
         }
@@ -23,7 +23,7 @@ namespace examen_1
                 txb_SueldoNeto.Text = $"Sueldo Neto: {sueldoNeto:C}";
             }
             catch
-            { MessageBox.Show("Ingrese un número válido.").; }
+            { MessageBox.Show("Ingrese un número válido." "sistema", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
 
         private decimal CalcularISR(decimal sueldo)
