@@ -23,7 +23,7 @@ namespace examen_1
                 txb_SueldoNeto.Text = $"Sueldo Neto: {sueldoNeto:C}";
             }
             catch
-            { MessageBox.Show("Ingrese un número válido." "sistema", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+            { MessageBox.Show("Ingrese un número válido.", "sistema", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
 
         private decimal CalcularISR(decimal sueldo)
